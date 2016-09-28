@@ -37,7 +37,7 @@ public class Window extends JFrame{
 		}
 	}
 	
-	public Window(){//h
+	public Window(){//hhh
 		setTitle("Image Maker");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(640, 640);

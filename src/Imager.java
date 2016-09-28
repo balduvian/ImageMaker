@@ -35,7 +35,7 @@ public class Imager {
 		g.setColor(c);
 		g.fillRect(x, y, w, h);
 	}
-	//h
+	//hhh
 	public static void arrayToRect(BufferedImage b, int[][] a){
 		Color[] colors = {Color.WHITE,Color.GRAY,Color.RED,Color.ORANGE,Color.YELLOW,Color.GREEN,Color.BLUE,Color.MAGENTA};
 		for(int y=0;y<a.length;y++){
