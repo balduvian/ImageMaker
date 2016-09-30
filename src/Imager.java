@@ -30,6 +30,14 @@ public class Imager {
 		}
 	}
 	
+	public static void clear(int[][] a){
+		for(int y=0;y<a.length;y++){
+			for(int x=0;x<a[y].length;x++){
+				a[y][x]=0;
+			}
+		}
+	}
+	
 	public static void rect(BufferedImage b, Color c, int x, int y, int w, int h){
 		Graphics2D g = b.createGraphics();
 		g.setColor(c);
